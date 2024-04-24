@@ -639,6 +639,30 @@
           height: fill-available;
         }
       }
+
+      .exness_video {
+            position: absolute;
+            z-index: -1;
+            max-width: 360px;
+          }
+          .video-mobile {
+            display: inline-block;
+            left: 0;
+            right: -40px;
+            text-align: center;
+
+          }
+          @media (min-width: 530px) {
+            .video_mobile {
+              display: none !important;
+            }
+          }
+
+          @media (max-width: 560px) {
+            .video_desktop {
+              display: none !important;
+            }
+          }
     </style>
     <style data-emotion="mui-global animation-c7515d">
       @-webkit-keyframes animation-c7515d {
@@ -7704,6 +7728,14 @@
               <div
                 class="MuiContainer-root MuiContainer-maxWidthXl MuiContainer-disableGutters mui-q1p55x"
               >
+              <video autoplay="true"
+              loop=""
+              src="./assets/exness_video.mp4"
+              data-testid="header:video"
+              class="exness_video video_mobile"
+              style="min-width: 340px !important; top: 0; left: 0; object-fit: cover;"
+            ></video>
+          </div>
                 <div class="mui-9xujpt e1ot4dbx1">
                   <div class="mui-rgxvn ehxpdcq0">
                     <h1
@@ -7744,13 +7776,15 @@
                       href="./components/registeration/index.html"
                       >Try free demo</a>
                   </div>
-                  <!-- <video autoplay="true"
+                  <!-- <div class="video_desktop mui-ytzz1x"> -->
+                  <video autoplay="true"
                     loop=""
                     src="./assets/exness_video.mp4"
                     data-testid="header:video"
-                    class="mui-ytzz1x e1ot4dbx0 exness_video"
+                    class="mui-ytzz1x e1ot4dbx0 video_desktop"
                     style="min-width: 340px !important;"
-                  ></video> -->
+                  ></video>
+                <!-- </div> -->
                 </div>
                 <div
                   data-testid="header:features"
