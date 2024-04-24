@@ -7721,6 +7721,15 @@
                   const rootNode = document.querySelector(".nav-root");
                   rootNode.addEventListener("click", mobileToggleHandlerRoot);
                 });
+
+                window.addEventListener('load', function() {
+                var videoElement = document.getElementById('desktopMobile');
+                videoElement.addEventListener('ended', function() {
+                this.currentTime = 0; // Reset playback to the beginning
+                this.play(); // Start playing again
+                }, false);
+                  videoElement.play(); // Start playing initially
+                });
               </script>
             </div>
             <!-- slice-end id="headerSlice--en-1" -->
@@ -7782,13 +7791,16 @@
                       href="./components/registeration/index.html"
                       >Try free demo</a>
                   </div>
-                  <video autoplay=""
-                    loop=""
-                    src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_224a0d0a86.mp4"
+                  <video 
                     data-testid="header:video"
                     class="mui-ytzz1x e1ot4dbx0 video_desktop"
                     style="min-width: 520px !important; overflow: hidden;"
-                  ></video>
+                    id="desktopMobile"
+                    playsinline
+                    autoplay
+                  >
+                  <source src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_224a0d0a86.mp4" type="video/mp4">
+                </video>
                 <div data-gatsby-image-wrapper="" class="e1dyj0ln3 mui-3kiahn e16i1q111 mobile_banner"><div style="padding-top: 50.5208%;"></div><picture><source srcset="https://d33vw3iu5hs0zi.cloudfront.net/media/sm_home_header_background_xs_sm_570681f373.jpg 576w,https://d33vw3iu5hs0zi.cloudfront.net/media/md_home_header_background_xs_sm_570681f373.jpg 768w,https://d33vw3iu5hs0zi.cloudfront.net/media/lg_home_header_background_xs_sm_570681f373.jpg 992w,https://d33vw3iu5hs0zi.cloudfront.net/media/xl_home_header_background_xs_sm_570681f373.jpg 1200w" sizes="100vw" type="image/jpeg" media="(max-width: 575px)"><source media="(max-width: 575px)" srcset="">
                   <source srcset="https://d33vw3iu5hs0zi.cloudfront.net/media/sm_home_header_background_5af89fa200.jpg 576w,https://d33vw3iu5hs0zi.cloudfront.net/media/md_home_header_background_5af89fa200.jpg 768w,https://d33vw3iu5hs0zi.cloudfront.net/media/lg_home_header_background_5af89fa200.jpg 992w,https://d33vw3iu5hs0zi.cloudfront.net/media/xl_home_header_background_5af89fa200.jpg 1200w" sizes="100vw" type="image/jpeg"><img src="https://d33vw3iu5hs0zi.cloudfront.net/media/home_header_background_5af89fa200.jpg" srcset="" sizes="100vw" data-main-image="" class="mui-1pnaxnc e16i1q110" data-testid="image" alt=""></picture></div>
                 </div>
