@@ -7722,14 +7722,19 @@
                   rootNode.addEventListener("click", mobileToggleHandlerRoot);
                 });
 
-                window.addEventListener('load', function() {
+                // window.addEventListener('load', function() {
+                // var videoElement = document.getElementById('desktopMobile');
+                // videoElement.addEventListener('ended', function() {
+                // this.currentTime = 0; // Reset playback to the beginning
+                // this.play(); // Start playing again
+                // }, false);
+                //   videoElement.play(); // Start playing initially
+                // });
+
                 var videoElement = document.getElementById('desktopMobile');
-                videoElement.addEventListener('ended', function() {
-                this.currentTime = 0; // Reset playback to the beginning
-                this.play(); // Start playing again
-                }, false);
-                  videoElement.play(); // Start playing initially
-                });
+
+                videoElement.autoplay = true;
+                videoElement.loop = true;
               </script>
             </div>
             <!-- slice-end id="headerSlice--en-1" -->
@@ -7796,8 +7801,8 @@
                     class="mui-ytzz1x e1ot4dbx0 video_desktop"
                     style="min-width: 520px !important; overflow: hidden;"
                     id="desktopMobile"
-                    playsinline
                     autoplay
+                    loop
                   >
                   <source src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_224a0d0a86.mp4" type="video/mp4">
                 </video>
