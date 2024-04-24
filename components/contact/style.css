@@ -1,0 +1,291 @@
+body {
+  color: #141d22;
+  font-family: var(--f-country-simple-family);
+  font-weight: 400;
+  font-size: var(--t-html-font-size);
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+body {
+  /* CSS Variables that may have been missed get put on body */
+  --f-latin-headers: "Poppins", "aktiv-grotesk";
+  --f-default: sans-serif;
+  --f-country-heading-family: var(--f-latin-headers), var(--f-default);
+  --f-latin: "aktiv-grotesk";
+  --f-country-simple-family: var(--f-latin), var(--f-default);
+  --f-country-heading-family: var(--f-latin-headers), var(--f-default);
+  --f-country-simple-family: var(--f-latin), var(--f-default);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+  color: var(--c-text-primary);
+  font-family: var(--f-country-simple-family);
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  color: #141d22;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  background-color: #f8f9f9;
+}
+
+body:lang(en) {
+  --f-country-heading-family: var(--f-latin-headers), var(--f-default);
+  --f-country-simple-family: var(--f-latin), var(--f-default);
+  font-family: var(--f-country-simple-family);
+}
+
+html {
+  --f-country-heading-family: var(--f-default);
+  --f-country-simple-family: var(--f-default);
+  font-size: var(--t-html-font-size);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+  --t-html-font-size: 16px;
+  --f-default: sans-serif;
+  --f-latin: "aktiv-grotesk";
+  --f-latin-headers: "Poppins", "aktiv-grotesk";
+}
+
+html:lang(en) {
+  --f-country-heading-family: var(--f-latin-headers), var(--f-default);
+  --f-country-simple-family: var(--f-latin), var(--f-default);
+  font-family: var(--f-country-simple-family);
+}
+
+.mui-tz8oua {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center;
+  color: #edf0f2;
+  padding: 32px 24px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  min-height: calc(100vw / 0.75);
+}
+
+@media (min-width: 576px) {
+  .mui-tz8oua {
+    padding: 64px 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mui-tz8oua {
+    padding: 96px 64px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mui-tz8oua {
+    padding: 96px 64px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mui-tz8oua {
+    padding: 128px 96px;
+  }
+}
+
+@media (min-width: 576px) {
+  .mui-tz8oua {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    min-height: calc(100vw / 2.5);
+  }
+}
+
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+
+@media (min-width: 576px) {
+  .mui-1aozlx9 {
+    width: 65%;
+  }
+}
+
+@media (min-width: 992px) {
+  .mui-1aozlx9 {
+    width: 560px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mui-1aozlx9 {
+    width: 656px;
+  }
+}
+
+.mui-3kiahn {
+  position: absolute !important;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mui-qy4i9q {
+  margin: 0;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--f-country-heading-family);
+  white-space: pre-line;
+}
+
+@media (min-width: 768px) {
+  .mui-qy4i9q {
+    font-size: 44px;
+    line-height: 56px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mui-qy4i9q {
+    font-size: 56px;
+    line-height: 72px;
+  }
+}
+
+.mui-1ynksyi {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: var(--f-country-simple-family);
+  white-space: pre-line;
+  margin-top: 16px;
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .mui-1ynksyi {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mui-1ynksyi {
+    display: block;
+  }
+}
+
+.mui-1pnaxnc {
+  inset: 0px;
+  height: 100%;
+  margin: 0px;
+  max-width: none;
+  padding: 0px;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mui-3kiahn [data-main-image] {
+  opacity: unset !important;
+  object-position: 75% 50%;
+}
+
+@media (min-width: 576px) {
+  .mui-3kiahn [data-main-image] {
+    object-position: 50% 50%;
+  }
+}
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-gaACb.style-gaACb {
+  padding-top: 40%;
+}
+
+.input-feild {
+    color: black;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .input1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input1 div {
+    flex: 1;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .input1 input{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px black solid;
+    font-size: 15px;
+  }
+  
+  .input2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .input2 input {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px black solid;
+    font-size: 15px;
+  }
+  
+  .input-feild button {
+    width: 100%;
+    background-color: yellow;
+    border: none;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
