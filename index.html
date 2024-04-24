@@ -643,14 +643,15 @@
       .exness_video {
             position: absolute;
             z-index: -1;
-            max-width: 360px;
+            max-width: 520px;
+            overflow: hidden;
           }
-          .video-mobile {
+          .video_mobile {
             display: inline-block;
             left: 0;
-            right: -40px;
+            right: 0;
             text-align: center;
-
+            overflow: hidden;
           }
           @media (min-width: 530px) {
             .video_mobile {
@@ -661,6 +662,16 @@
           @media (max-width: 560px) {
             .video_desktop {
               display: none !important;
+            }
+          }
+
+          .mobile_banner {
+            z-index: -1;
+          }
+
+          @media (min-width: 560px) and (max-width: 1399.95px) {
+            .mobile_banner {
+                display: none !important;
             }
           }
     </style>
@@ -4646,8 +4657,7 @@
                     .mui-1bu370 {
                       display: none;
                     }
-                  }</style
-                ><a
+                  }</style><a
                   class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation eujywzj4 mui-1bu370"
                   tabindex="0"
                   uri="/accounts/sign-in"
@@ -4656,8 +4666,7 @@
                   data-param="menu-mobile-cta"
                   data-testid="button:sign-in"
                   href="#"
-                  >Sign in</a
-                >
+                  >Sign in</a>
                 <style data-emotion="mui hnyi58">
                   .mui-hnyi58 {
                     margin-left: 24px;
@@ -4706,8 +4715,7 @@
 
                     .mobile .mui-1wiwn6o {
                       display: block;
-                    }</style
-                  ><svg
+                    }</style><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -4728,8 +4736,7 @@
                     }
                     .mobile .mui-1lj9dh4 {
                       display: none;
-                    }</style
-                  ><svg
+                    }</style><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -5060,9 +5067,7 @@
                           .mui-qz9ag9 {
                             margin: 0px 24px;
                           }
-                        }</style
-                      ><button
-                        class="MuiButtonBase-root nav-215 nav-216 nav-1125 nav-217 nav-218 nav-219 nav-220 nav-212 nav-item ed1092o9 mui-qz9ag9"
+                        }</style><button class="MuiButtonBase-root nav-215 nav-216 nav-1125 nav-217 nav-218 nav-219 nav-220 nav-212 nav-item ed1092o9 mui-qz9ag9"
                         tabindex="0"
                         type="button"
                         data-testid="nav:button"
@@ -7728,13 +7733,14 @@
               <div
                 class="MuiContainer-root MuiContainer-maxWidthXl MuiContainer-disableGutters mui-q1p55x"
               >
-              <video autoplay="true"
+              <!-- <video autoplay="true"
               loop=""
               src="./assets/exness_video.mp4"
               data-testid="header:video"
               class="exness_video video_mobile"
-              style="min-width: 340px !important; top: 0; left: 0; object-fit: cover;"
-            ></video>
+              style="min-width: 520px !important; overflow: hidden;"
+            ></video> -->
+            
           </div>
                 <div class="mui-9xujpt e1ot4dbx1">
                   <div class="mui-rgxvn ehxpdcq0">
@@ -7782,15 +7788,17 @@
                     src="./assets/exness_video.mp4"
                     data-testid="header:video"
                     class="mui-ytzz1x e1ot4dbx0 video_desktop"
-                    style="min-width: 340px !important;"
+                    style="min-width: 520px !important; overflow: hidden;"
                   ></video>
                 <!-- </div> -->
+                <div data-gatsby-image-wrapper="" class="e1dyj0ln3 mui-3kiahn e16i1q111 mobile_banner"><div style="padding-top: 50.5208%;"></div><picture><source srcset="https://d33vw3iu5hs0zi.cloudfront.net/media/sm_home_header_background_xs_sm_570681f373.jpg 576w,https://d33vw3iu5hs0zi.cloudfront.net/media/md_home_header_background_xs_sm_570681f373.jpg 768w,https://d33vw3iu5hs0zi.cloudfront.net/media/lg_home_header_background_xs_sm_570681f373.jpg 992w,https://d33vw3iu5hs0zi.cloudfront.net/media/xl_home_header_background_xs_sm_570681f373.jpg 1200w" sizes="100vw" type="image/jpeg" media="(max-width: 575px)"><source media="(max-width: 575px)" srcset="">
+                  <source srcset="https://d33vw3iu5hs0zi.cloudfront.net/media/sm_home_header_background_5af89fa200.jpg 576w,https://d33vw3iu5hs0zi.cloudfront.net/media/md_home_header_background_5af89fa200.jpg 768w,https://d33vw3iu5hs0zi.cloudfront.net/media/lg_home_header_background_5af89fa200.jpg 992w,https://d33vw3iu5hs0zi.cloudfront.net/media/xl_home_header_background_5af89fa200.jpg 1200w" sizes="100vw" type="image/jpeg"><img src="https://d33vw3iu5hs0zi.cloudfront.net/media/home_header_background_5af89fa200.jpg" srcset="" sizes="100vw" data-main-image="" class="mui-1pnaxnc e16i1q110" data-testid="image" alt=""></picture></div>
                 </div>
                 <div
                   data-testid="header:features"
                   class="mui-111g3an e10ab1jl0"
                 >
-                  <div data-testid="header:feature" class="mui-1xhj18k">
+                  <div data-testid="header:feature" class="" style="display: flex; align-items: center; gap: 10px;">
                     <img
                       alt="users-group"
                       class="mui-jczzds e1x7956b0"
@@ -7798,13 +7806,13 @@
                       data-testid="header:feature:icon"
                     />
                     <p
-                      class="MuiTypography-root MuiTypography-body2RegularAdaptive mui-h9ss5o"
+                      class="MuiTypography-root MuiTypography-body2RegularAdaptive"
                       data-testid="header:feature:description"
                     >
                       700,000+ active traders
                     </p>
                   </div>
-                  <div data-testid="header:feature" class="mui-1xhj18k">
+                  <div data-testid="header:feature" class=""  style="display: flex; align-items: center; gap: 10px;">
                     <img
                       alt="license"
                       class="mui-jczzds e1x7956b0"
@@ -7812,13 +7820,13 @@
                       data-testid="header:feature:icon"
                     />
                     <p
-                      class="MuiTypography-root MuiTypography-body2RegularAdaptive mui-h9ss5o"
+                      class="MuiTypography-root MuiTypography-body2RegularAdaptive"
                       data-testid="header:feature:description"
                     >
                       Multiple regulatory licenses
                     </p>
                   </div>
-                  <div data-testid="header:feature" class="mui-1xhj18k">
+                  <div data-testid="header:feature" class="" style="display: flex; align-items: center; gap: 10px;">
                     <img
                       alt="custom-support"
                       class="mui-jczzds e1x7956b0"
@@ -7826,13 +7834,13 @@
                       data-testid="header:feature:icon"
                     />
                     <p
-                      class="MuiTypography-root MuiTypography-body2RegularAdaptive mui-h9ss5o"
+                      class="MuiTypography-root MuiTypography-body2RegularAdaptive"
                       data-testid="header:feature:description"
                     >
                       24/7 customer support
                     </p>
                   </div>
-                  <div data-testid="header:feature" class="mui-1xhj18k">
+                  <div data-testid="header:feature" class="" style="display: flex; align-items: center; gap: 10px;">
                     <img
                       alt="certificate"
                       class="mui-jczzds e1x7956b0"
@@ -7840,7 +7848,7 @@
                       data-testid="header:feature:icon"
                     />
                     <p
-                      class="MuiTypography-root MuiTypography-body2RegularAdaptive mui-h9ss5o"
+                      class="MuiTypography-root MuiTypography-body2RegularAdaptive"
                       data-testid="header:feature:description"
                     >
                       PCI DSS certified
