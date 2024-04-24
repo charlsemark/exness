@@ -3860,7 +3860,7 @@
       @media (max-width: 767px) {
         html .embedded-messaging > .embeddedMessagingFrame.isMaximized {
           bottom: 0 !important;
-          left: 0; !important
+          left: 0 !important; 
           right: 0 !important;
         }
       }
@@ -4822,8 +4822,7 @@
                     .mui-1bu370 {
                       display: none;
                     }
-                  }</style
-                ><a
+                  }</style><a
                   class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-disableElevation eujywzj4 mui-1bu370"
                   tabindex="0"
                   uri="/accounts/sign-in"
@@ -7985,7 +7984,7 @@
                       <h3 class="MuiTypography-root MuiTypography-heading3Adaptive e1t7zots0 mui-lx6zr0" data-testid="feature-text:title">Access your earnings </h3>
                       <p class="MuiTypography-root MuiTypography-body3RegularAdaptive e1t7zots1 mui-149dsrj">with no unnecessary delays.</p>
                       <h3 class="MuiTypography-root MuiTypography-heading3Adaptive e1t7zots0 mui-lx6zr0" data-testid="feature-text:title">Enjoy fast and precise execution</h3>
-                      <p class="MuiTypography-root MuiTypography-body3RegularAdaptive e1t7zots1 mui-149dsrj">on trader-favorite platforms like MT4, MT5,  the Exness Web Terminal and Exness Trade app.</p>
+                      <p class="MuiTypography-root MuiTypography-body3RegularAdaptive e1t7zots1 mui-149dsrj">on trader-favorite platforms like MT4, MT5, the Exness Web Terminal and Exness Trade app.</p>
                   </div>
               </div>
           </div>
@@ -7994,7 +7993,7 @@
               class="epx7sf00 MuiBox-root mui-1fs3qx3"
               data-testid="section:table-instruments"
             >
-            <div class="MuiContainer-root MuiContainer-maxWidthXl MuiContainer-disableGutters mui-q1p55x snipcss0-2-35-36 snipcss-8bKOS">
+             <!-- <div class="MuiContainer-root MuiContainer-maxWidthXl MuiContainer-disableGutters mui-q1p55x snipcss0-2-35-36 snipcss-8bKOS">
               <div class="mui-1t2nyq3 e18c5htd1 snipcss0-3-36-37">
                   <div class="mui-rgxvn e18c5htd0 snipcss0-4-37-38">
                       <h2 class="MuiTypography-root MuiTypography-heading1Adaptive mui-10g41b0 snipcss0-5-38-39" data-testid="section-title">Forex market spreads and swaps</h2>
@@ -9147,7 +9146,7 @@
                       </tr>
                   </tbody>
               </table>
-          </div>
+             </div> -->
             </section>
             <section
               class="epx7sf00 MuiBox-root mui-1fs3qx3"
@@ -9415,9 +9414,55 @@
                                       
                                       30,000 USD or more: maximum leverage 1:500</div>
                             </div>
+                            
+                          
+                        
                               <!-- Add more accordion items here -->
-                          </div>
                       </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseTwo">
+                               Why are there higher margin requirements around news?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              When important news is released, significant volatility and gaps can occur. Using high leverage in a highly volatile market is risky because sudden movements can result in larger losses. That’s why we cap leverage at 1:200 during news releases for all new positions for instruments impacted.
+                              <br />
+                              In cases when these intervals of increased margin requirements for different news releases are less than 15 minutes apart, these periods may be merged into one long period for the instruments involved. You’ll receive an email from us giving you full details of changes to margin requirements on your trading platform.
+                              <br />
+                              When the specified period has passed, the margin on positions opened during the period is recalculated based on the amount of funds                                     in the account and the selected leverage value.
+                            </div>
+                        </div>
+                    </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+                               Do margin requirements change around the weekends and holidays?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                            An increased margin rule also applies to all forex trading that happens during weekends. All instruments during this period are subject to a maximum leverage of 1:200. Holidays are slightly different as only certain instruments and markets may be affected by this rule. When there is a change in margin requirements due to holidays, we will inform you via email.
+                            </div>
+                        </div>
+                    </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseTwo">
+                               When does the weekend period of increased margin requirements start and finish?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              Margin requirements for the opening of new positions will be calculated on a maximum leverage of 1:200 from Friday at 18:00 GMT (three hours before the forex market closes) to Sunday at 22:00 GMT (one hour after the market opens).
+                              <br />
+                              For one hour after the market opens, your positions will remain at the increased margin requirements.
+                              <br />
+                              One hour after the market opening, the margin on positions opened during the period of increased margin requirements is recalculated based on the amount of funds in your account and the leverage you’ve set.
+                            </div>
+                        </div>
+                    </div>
                   </div>
               </div>
           </section>
