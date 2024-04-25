@@ -54661,7 +54661,7 @@ var _global =
                     }),
                 (0, k.jsx)("link", {
                   rel: "icon",
-                  href: "/assets/favicon/favicon-48x48.png",
+                  href: "/assets/favicon/favicon-32x32.png",
                   type: "image/png",
                 }),
               ],
