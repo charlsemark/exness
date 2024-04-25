@@ -674,6 +674,18 @@
                 display: none !important;
             }
           }
+          @media (max-width: 540px) {
+            .cards-carousel {
+                display: flex !important;
+                flex-direction: column !important;
+                gap: 30px !important;
+                padding-left: 30px !important;
+                padding-right: 30px !important;
+                /* background-color: #1172cc!important; */
+            }
+          }
+
+          
     </style>
     <style data-emotion="mui-global animation-c7515d">
       @-webkit-keyframes animation-c7515d {
@@ -8897,178 +8909,85 @@
                 </div>
               </div>
             </section>
-            <section
-              class="eywhyw92 epx7sf00 MuiBox-root mui-ndqzwi snipcss0-1-1-243 snipcss-GIxvr"
-              data-testid="section:news-carousel"
-            >
-              <div class="eywhyw90 mui-10f977y e18c5htd1 snipcss0-2-243-244">
-                <div class="mui-rgxvn e18c5htd0 snipcss0-3-244-245">
-                  <h2
-                    class="MuiTypography-root MuiTypography-heading1Adaptive mui-10g41b0 snipcss0-4-245-246"
-                    data-testid="section-title"
-                  >
+            <section class="eywhyw92 epx7sf00 MuiBox-root mui-ndqzwi" data-testid="section:news-carousel">
+              <div class="eywhyw90 mui-10f977y e18c5htd1">
+                <div class="mui-rgxvn e18c5htd0">
+                  <h2 class="MuiTypography-root MuiTypography-heading1Adaptive mui-10g41b0" data-testid="section-title">
                     Stay ahead of the markets
                   </h2>
-                  <div
-                    data-testid="section-description"
-                    class="mui-33z759 e19itn8s0 snipcss0-4-245-247"
-                  >
-                    <p
-                      class="MuiTypography-root MuiTypography-body2RegularAdaptive MuiTypography-paragraph mui-1ug0pd5 snipcss0-5-247-248"
-                    >
-                      Get the latest market news, trading analysis, and feature
-                      updates.
+                  <div data-testid="section-description" class="mui-33z759 e19itn8s0">
+                    <p class="MuiTypography-root MuiTypography-body2RegularAdaptive MuiTypography-paragraph mui-1ug0pd5">
+                      Get the latest market news, trading analysis, and feature updates.
                     </p>
                   </div>
-                  <div class="mui-gjxpia e1f66jfd0 snipcss0-4-245-249">
-                    <a
-                      class="MuiTypography-root MuiTypography-body2RegularAdaptive MuiLink-root MuiLink-underlineHover eo44som0 mui-xxtynm snipcss0-5-249-250"
-                      title="The Accessible Trade blog  - analysis, market news and company updates"
-                      data-testid="section-link"
-                      href="./components/blog/index.html"
-                      >View all market news<svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="tabler-icon tabler-icon-chevron-right snipcss0-6-250-251"
-                      >
-                        <path d="M9 6l6 6l-6 6"></path></svg></a>
+                  <div class="mui-gjxpia e1f66jfd0">
+                    <a class="MuiTypography-root MuiTypography-body2RegularAdaptive MuiLink-root MuiLink-underlineHover eo44som0 mui-xxtynm" title="The Exness blog  - analysis, market news and company updates" data-testid="section-link" href="/blog/">
+                      View all market news
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-chevron-right"><path d="M9 6l6 6l-6 6"></path>
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
-              <!-- <div 
-                style="display: hidden !important;"
-                class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters eywhyw91 mui-b72yau snipcss0-2-243-252"
-              >
-                <div
-                  data-testid="article-carousel:cards"
-                  class="mui-12zwq2w e143zngt0"
-                >
+              <div class="MuiContainer-root MuiContainer-maxWidthLg MuiContainer-disableGutters eywhyw91 mui-b72yau ">
+                <div data-testid="article-carousel:cards" class="mui-12zwq2w e143zngt0 cards-carousel">
                   <div class="MuiBox-root mui-11qwjw7">
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone egx7qn13 mui-16f96ap"
-                      data-testid="article-carousel:card:0"
-                      href="./components/blog/index.html"
-                    >
-                      <div
-                        data-gatsby-image-wrapper=""
-                        class="egx7qn12 mui-57d209 e16i1q111"
-                      >
-                        <div id="style-YOG1S" class="style-YOG1S"></div>
-                        <picture
-                          ><img
-                            src="https://images.ctfassets.net/fawq95y6n8yp/5iRKLjtf9DSzLcF5HFDtMY/219e6acb404dbca7a00bf3b1eb3245df/exness-gold-3.jpg?w=1100"
-                            data-main-image=""
-                            class="mui-1pnaxnc e16i1q110"
-                            data-testid="image"
-                            alt=""
-                        /></picture>
+                    <a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone egx7qn13 mui-16f96ap" data-testid="article-carousel:card:0" href="./components/blog3/index.html">
+                      <div data-gatsby-image-wrapper="" class="egx7qn12 mui-57d209 e16i1q111">
+                        <div style="padding-top: 66.6667%;"></div>
+                        <picture>
+                          <img src="https://images.ctfassets.net/fawq95y6n8yp/41Imh6XB2BUtqCqRR1RuMn/a7126fd6f6e16a307399af930dac869d/3329_exness_mt5.jpg?w=1100" data-main-image="" class="mui-1pnaxnc e16i1q110" data-testid="image" alt="3329 exness mt5">
+                        </picture>
                       </div>
                       <div class="egx7qn11 mui-1hfy67b">
-                        <div
-                          class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorNeutral MuiChip-outlinedNeutral mui-dg8yce"
-                          data-testid="article-carousel:card:0:category"
-                        >
-                          <span
-                            class="MuiChip-label MuiChip-labelSmall mui-tavflp"
-                            >Market analysis</span
-                          >
+                        <div class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorNeutral MuiChip-outlinedNeutral mui-dg8yce" data-testid="article-carousel:card:0:category">
+                          <span class="MuiChip-label MuiChip-labelSmall mui-tavflp">Insights</span>
                         </div>
-                        <h5
-                          class="MuiTypography-root MuiTypography-heading5Adaptive egx7qn10 mui-jd6ml9"
-                          data-testid="article-carousel:card:0:title"
-                        >
-                          Is the gold rally sustainable?
+                        <h5 class="MuiTypography-root MuiTypography-heading5Adaptive egx7qn10 mui-jd6ml9" data-testid="article-carousel:card:0:title">
+                          Accessible MT5 or accessible terminal?
                         </h5>
                       </div>
                     </a>
                   </div>
                   <div class="MuiBox-root mui-11qwjw7">
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone egx7qn13 mui-16f96ap"
-                      data-testid="article-carousel:card:1"
-                      href="./components/blog/index.html"
-                    >
-                      <div
-                        data-gatsby-image-wrapper=""
-                        class="egx7qn12 mui-57d209 e16i1q111"
-                      >
-                        <div id="style-yZdJf" class="style-yZdJf"></div>
-                        <picture
-                          ><img
-                            src="https://images.ctfassets.net/fawq95y6n8yp/3h4ibj4a7T8zE488aHXWqn/9c170f7746a5e0e04caba96bfcb78139/nvda_vs_mad.png?w=1100"
-                            data-main-image=""
-                            class="mui-1pnaxnc e16i1q110"
-                            data-testid="image"
-                            alt=""
-                        /></picture>
+                    <a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone egx7qn13 mui-16f96ap" data-testid="article-carousel:card:1" href="./components/blog4/index.html">
+                      <div data-gatsby-image-wrapper="" class="egx7qn12 mui-57d209 e16i1q111">
+                        <div style="padding-top: 66.6667%;"></div>
+                        <picture>
+                          <img src="https://images.ctfassets.net/fawq95y6n8yp/46bJPbqhV4dxEpf3u7oIxT/827758108b8f3822472eed93824eb41b/risk_management.jpg?w=1100" data-main-image="" class="mui-1pnaxnc e16i1q110" data-testid="image" alt="risk management">
+                        </picture>
                       </div>
                       <div class="egx7qn11 mui-1hfy67b">
-                        <div
-                          class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorNeutral MuiChip-outlinedNeutral mui-dg8yce"
-                          data-testid="article-carousel:card:1:category"
-                        >
-                          <span
-                            class="MuiChip-label MuiChip-labelSmall mui-tavflp"
-                            >Insights</span
-                          >
+                        <div class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorNeutral MuiChip-outlinedNeutral mui-dg8yce" data-testid="article-carousel:card:1:category">
+                          <span class="MuiChip-label MuiChip-labelSmall mui-tavflp">Market analysis</span>
                         </div>
-                        <h5
-                          class="MuiTypography-root MuiTypography-heading5Adaptive egx7qn10 mui-jd6ml9"
-                          data-testid="article-carousel:card:1:title"
-                        >
-                          AMD vs Nvidia: which is the smarter investment?
+                        <h5 class="MuiTypography-root MuiTypography-heading5Adaptive egx7qn10 mui-jd6ml9" data-testid="article-carousel:card:1:title">
+                          3 risk management tips that you need to know
                         </h5>
                       </div>
                     </a>
                   </div>
-                  <div style="" class="MuiBox-root mui-11qwjw7">
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone egx7qn13 mui-16f96ap"
-                      data-testid="article-carousel:card:2"
-                      href="./components/blog/index.html"
-                    >
-                      <div
-                        data-gatsby-image-wrapper=""
-                        class="egx7qn12 mui-57d209 e16i1q111"
-                      >
-                        <div id="style-7iafn" class="style-7iafn"></div>
-                        <picture
-                          ><img
-                            src="https://images.ctfassets.net/fawq95y6n8yp/76TisS86e5MpHTaSUmUrkp/36b33657c1d04eaeeed12d794d562f49/BLOG_ARTICLE_BANNER__3x2_.jpg?w=1100"
-                            data-main-image=""
-                            class="mui-1pnaxnc e16i1q110"
-                            data-testid="image"
-                            alt=""
-                        /></picture>
+                  <div class="MuiBox-root mui-11qwjw7">
+                    <a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone egx7qn13 mui-16f96ap" data-testid="article-carousel:card:2" href="./components/blog5/index.html">
+                      <div data-gatsby-image-wrapper="" class="egx7qn12 mui-57d209 e16i1q111">
+                        <div style="padding-top: 66.6667%;"></div>
+                        <picture>
+                          <img src="https://images.ctfassets.net/fawq95y6n8yp/3wX4cu2ZR3jo7dx03c7BMz/8391f6de52d87c43b04c9c6947718454/Week_6_DXY.jpg?w=1100" data-main-image="" class="mui-1pnaxnc e16i1q110" data-testid="image" alt="Week 6 DXY">
+                        </picture>
                       </div>
                       <div class="egx7qn11 mui-1hfy67b">
-                        <div
-                          class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorNeutral MuiChip-outlinedNeutral mui-dg8yce"
-                          data-testid="article-carousel:card:2:category"
-                        >
-                          <span
-                            class="MuiChip-label MuiChip-labelSmall mui-tavflp"
-                            >Company news</span
-                          >
+                        <div class="MuiChip-root MuiChip-outlined MuiChip-sizeSmall MuiChip-colorNeutral MuiChip-outlinedNeutral mui-dg8yce" data-testid="article-carousel:card:2:category">
+                          <span class="MuiChip-label MuiChip-labelSmall mui-tavflp">Market analysis</span>
                         </div>
-                        <h5
-                          class="MuiTypography-root MuiTypography-heading5Adaptive egx7qn10 mui-jd6ml9"
-                          data-testid="article-carousel:card:2:title"
-                        >
-                          LALIGA: Leading the field with Accessible Trade
+                        <h5 class="MuiTypography-root MuiTypography-heading5Adaptive egx7qn10 mui-jd6ml9" data-testid="article-carousel:card:2:title">
+                          Fundamental vs technical analysis: spotlight on dxy
                         </h5>
                       </div>
                     </a>
                   </div>
                 </div>
-              </div> -->
+              </div>
+              
             </section>
             <section
               class="ezbkryk1 epx7sf00 MuiBox-root mui-z3kkme snipcss0-1-1-257 snipcss-4sHTO"
