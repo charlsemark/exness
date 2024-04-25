@@ -54177,7 +54177,7 @@ var _global =
                     t.t("ui.popups.redesign.text"),
                     " ",
                     (0, s.jsx)(a.Z, {
-                      href: "/blog/introducing-the-next-level-of-exness/",
+                      href: "/blog/introducing-the-next-level-of-accessible /",
                       children: t.t("ui.popups.redesign.link"),
                     }),
                   ],
@@ -54220,7 +54220,7 @@ var _global =
                           (0, f.jsxs)(u.Z, {
                             children: [
                               (0, f.jsx)(p.Z, {}),
-                              "exness-trade-app" !== m.slug &&
+                              "accessible -trade-app" !== m.slug &&
                                 (0, f.jsx)(l.R, {}),
                             ],
                           }),
@@ -54416,7 +54416,7 @@ var _global =
                         notificationBar: (0, v.jsxs)(a.Z, {
                           children: [
                             (0, v.jsx)(y, {}),
-                            "exness-trade-app" !== f.slug &&
+                            "accessible -trade-app" !== f.slug &&
                               (0, v.jsx)(b.R, {}),
                           ],
                         }),
@@ -54535,11 +54535,11 @@ var _global =
                 switch (n) {
                   case "ke":
                     return o.t("ui.titles.entitypopup.leave.ke", {
-                      _: "Go to Exness International",
+                      _: "Go to Accessible Trade International",
                     });
                   case "epw":
                     return o.t("ui.titles.entitypopup.leave.epw", {
-                      _: "Go to Exness Kenya",
+                      _: "Go to Accessible Trade Kenya",
                     });
                 }
               })(),
@@ -54547,11 +54547,11 @@ var _global =
                 switch (n) {
                   case "ke":
                     return o.t("ui.titles.entitypopup.description.ke", {
-                      _: "This Exness entity, licensed by Kenya's Capital Markets Authority (CMA), provides services to Kenyan residents and legal entities incorporated in Kenya only.\n\nIf you are in Kenya, stay on this page. Otherwise, please go to Exness International.",
+                      _: "This Accessible Trade entity, licensed by Kenya's Capital Markets Authority (CMA), provides services to Kenyan residents and legal entities incorporated in Kenya only.\n\nIf you are in Kenya, stay on this page. Otherwise, please go to Accessible Trade International.",
                     });
                   case "epw":
                     return o.t("ui.titles.entitypopup.description.epw", {
-                      _: "If you reside in Kenya, please consider choosing the Kenya-dedicated Exness, which is regulated by Kenya's Capital Markets Authority (CMA), and offers services specific to you.",
+                      _: "If you reside in Kenya, please consider choosing the Kenya-dedicated Accessible Trade, which is regulated by Kenya's Capital Markets Authority (CMA), and offers services specific to you.",
                     });
                 }
               })();
@@ -56067,7 +56067,7 @@ var _global =
                         variant: "body4SemiboldAdaptive",
                         color: "text.primary",
                         children: t.t("ui.controls.exnessTraderApp.popupText", {
-                          _: "Exness Trade app",
+                          _: "Accessible Trade Trade app",
                         }),
                       }),
                       (0, g.jsx)(
@@ -58809,7 +58809,7 @@ var _global =
                   r = t.error,
                   n = t.icon;
                 return (0, b.jsx)(se, {
-                  className: "ExnessStepIconRoot",
+                  className: "Accessible TradeStepIconRoot",
                   children: r
                     ? oe || (oe = (0, b.jsx)(F, {}))
                     : e
@@ -58821,7 +58821,7 @@ var _global =
             styleOverrides: {
               iconContainer: function (t) {
                 var e = t.theme;
-                return (0, v.Z)({}, "& .ExnessStepIconRoot", {
+                return (0, v.Z)({}, "& .Accessible TradeStepIconRoot", {
                   color: e.palette.neutral.contrastText,
                   background: e.palette.neutral.main,
                 });
@@ -58867,7 +58867,7 @@ var _global =
                         { color: o.palette.error.main }
                       )
                     ),
-                    (0, v.Z)(e, "& .ExnessStepIconRoot", {
+                    (0, v.Z)(e, "& .Accessible TradeStepIconRoot", {
                       color: o.palette.error.contrastText,
                       background: o.palette.error.main,
                     }),
@@ -58886,7 +58886,7 @@ var _global =
                         { color: o.palette.text.disabled }
                       )
                     ),
-                    (0, v.Z)(r, "& .ExnessStepIconRoot", {
+                    (0, v.Z)(r, "& .Accessible TradeStepIconRoot", {
                       color: o.palette.text.disabled,
                       background: o.palette.action.disabledBackground,
                     }),
@@ -59274,7 +59274,7 @@ var _global =
                           ),
                           (0, v.Z)(
                             n,
-                            "& .MuiExnessToggleButtonContent",
+                            "& .MuiAccessible TradeToggleButtonContent",
                             ((r = {
                               "& svg": {
                                 color: "inherit",
@@ -59297,7 +59297,7 @@ var _global =
                             r)
                           ),
                           (0, v.Z)(n, "&:disabled", {
-                            "& .MuiExnessToggleButtonContent": (0, v.Z)(
+                            "& .MuiAccessible TradeToggleButtonContent": (0, v.Z)(
                               {},
                               "& .".concat(it.badge),
                               {
@@ -59337,7 +59337,7 @@ var _global =
                             height: 48,
                             paddingLeft: e.spacing(3),
                             paddingRight: e.spacing(3),
-                            "& .MuiExnessToggleButtonContent": (0, v.Z)(
+                            "& .MuiAccessible TradeToggleButtonContent": (0, v.Z)(
                               {},
                               "& svg",
                               { width: "24px", height: "24px" }
@@ -63236,7 +63236,7 @@ var _global =
               ? ((t) => {
                   var e = (0, i.x)(t);
                   return Object.assign({}, e, {
-                    __typename: "ContentfulExnessTradingAccountType",
+                    __typename: "ContentfulAccessible TradeTradingAccountType",
                     links: l(e),
                   });
                 })(t.data)
@@ -63490,25 +63490,25 @@ var _global =
           y = {
             initParams: [
               "00D58000000Kpf3",
-              "Exness_Chat_Black_Theme",
-              v() + "/ESWExnessChatBlackThem1690861617989",
+              "Accessible Trade_Chat_Black_Theme",
+              v() + "/ESWAccessible TradeChatBlackThem1690861617989",
               { scrt2URL: v() },
             ],
             scriptUrl:
               v() +
-              "/ESWExnessChatBlackThem1690861617989/assets/js/bootstrap" +
+              "/ESWAccessible TradeChatBlackThem1690861617989/assets/js/bootstrap" +
               (g() ? "" : ".min") +
               ".js",
           },
           b = {
             initParams: [
               "00D58000000Kpf3",
-              "Exness_Chat_Black_Theme",
-              "https://exness.my.site.com/ESWExnessChatBlackThem1690861617989",
+              "Accessible Trade_Chat_Black_Theme",
+              "https://exness.my.site.com/ESWAccessible TradeChatBlackThem1690861617989",
               { scrt2URL: "https://exness.my.salesforce-scrt.com" },
             ],
             scriptUrl:
-              "https://exness.my.site.com/ESWExnessChatBlackThem1690861617989/assets/js/bootstrap.min.js",
+              "https://exness.my.site.com/ESWAccessible TradeChatBlackThem1690861617989/assets/js/bootstrap.min.js",
           };
         t.exports = {
           getChat: (t) => {
@@ -63687,8 +63687,8 @@ var _global =
                     },
                   },
                 },
-                ExnessAccountType: { keyFields: ["account_type"] },
-                ExnessAccountTypeInstrument: {
+                Accessible TradeAccountType: { keyFields: ["account_type"] },
+                Accessible TradeAccountTypeInstrument: {
                   keyFields: ["account_type", "instrument"],
                 },
                 Asset: {
@@ -63708,7 +63708,7 @@ var _global =
                 },
                 Query: {
                   fields: {
-                    allExnessAccountTypes: {
+                    allAccessible TradeAccountTypes: {
                       merge(t, e, r) {
                         var o = r.readField,
                           a = r.variables.account_types,
@@ -63838,7 +63838,7 @@ var _global =
             plugin: r(77225),
             options: {
               plugins: [],
-              name: "Exness Public Website",
+              name: "Accessible Trade Public Website",
               short_name: "EPW",
               icon: "static/assets/favicon/favicon.png",
               include_favicon: !1,
