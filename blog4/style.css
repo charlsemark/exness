@@ -132,6 +132,26 @@ html:lang(en) {
     padding-bottom: 64px;
 } 
 
+.flex-social {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .social-icon {
+    height: 60px;
+    width: 60px;
+    background: none;
+    border: none;
+  }
+  
+  .more {
+    height: 50px;
+    width: 50px;
+    /* margin-top: -20px; */
+  }
+  
+
 @media (min-width: 576px){ 
   .mui-18g108u { 
     margin-top: 64px; 

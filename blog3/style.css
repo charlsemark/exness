@@ -81,6 +81,25 @@ html:lang(en) {
   display: block;
 }
 
+.flex-social {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.social-icon {
+  height: 60px;
+  width: 60px;
+  background: none;
+  border: none;
+}
+
+.more {
+  height: 50px;
+  width: 50px;
+  /* margin-top: -20px; */
+}
+
 @media (min-width: 1200px) {
   .mui-q1p55x {
     max-width: 1200px;

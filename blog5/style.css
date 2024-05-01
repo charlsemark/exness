@@ -97,6 +97,26 @@ html:lang(en) {
   margin: 64px 24px;
 }
 
+.flex-social {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.social-icon {
+  height: 60px;
+  width: 60px;
+  background: none;
+  border: none;
+}
+
+.more {
+  height: 50px;
+  width: 50px;
+  /* margin-top: -20px; */
+}
+
+
 @media (min-width: 576px) {
   .mui-1fs3qx3 {
     margin: 64px 32px;
